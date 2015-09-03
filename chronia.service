@@ -1,0 +1,9 @@
+[Unit]
+Description=Chronia Service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/Chronia
+
+[Install]
+WantedBy=multi-user.target
