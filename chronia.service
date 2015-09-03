@@ -3,7 +3,7 @@ Description=Chronia Service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/Chronia
+ExecStart=/usr/local/bin/chronia
 
 [Install]
 WantedBy=multi-user.target
