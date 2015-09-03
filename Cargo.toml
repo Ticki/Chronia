@@ -5,7 +5,6 @@ authors = ["Ticki <Ticki@users.noreply.github.com>"]
 
 [dependencies]
 sysinfo = "*"
-libc = "*"
 time = "*"
 
 [[bin]]
