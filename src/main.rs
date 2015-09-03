@@ -21,7 +21,7 @@ fn kill_procs() {
 
 fn condition() -> bool {
     // Time where blocking is enforced
-    time::now().tm_hour < 22
+    time::now().tm_hour < 18
 }
 
 
@@ -33,6 +33,9 @@ fn check() {
             thread::sleep_ms(2000);
             check();
         }).join().unwrap();
+    } else {
+        thread::sleep_ms(240000);
+        check();
     }
 }
 
