@@ -9,7 +9,7 @@ those which distracts you (custom defined, see `config`), if a
 certain condition is met.
 
 WARNING: Configure it before you install. Especially if you use
-         termite as you terminal emulator, as this is default.
+         termite as your terminal emulator, as this is default.
 
 Note that it uses systemd. If your system doesn't support systemd,
 just compile the repos with cargo and then daemonize the process,
