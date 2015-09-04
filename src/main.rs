@@ -1,6 +1,5 @@
 use std::{thread};
 extern crate sysinfo;
-extern crate libc;
 extern crate time;
 
 fn kill_procs() {
